@@ -6,6 +6,8 @@ In this work we are analyzing the coverage of social movements in Twitter throug
 
 Because we have three very different topics, we centralised the backbone of the functions used in all the analysis in the notebook Helpers.ypnb (created from the Milestone 2 notebook) and created a notebook for each of the three movements to show our results, since the analysis of the protests are done independently.
 
+The link to the website describing the data story is: https://shaginhekvs.github.io/ada_course/
+Moreover, the code for warm_taiga deployed on heroku is in app_plot_2
 # Research questions
 
 **Impact**
