@@ -3,6 +3,7 @@ Anatomy of Hashtags: Deconstructing Social Media Activism.
 
 # Abstract
 In this work we are analyzing the coverage of social movements in Twitter throughout the United States. Twitter has created a new place to participate in social movements, as other events like the Arab Spring has shown. The impact and importance of any statement is now measured in how many people retweet it. News appear on twitter before they do in traditional medias like newspapers.  We plan to have insights in how users see, share and discuss these protests and movements and analyse different trends in the data. For that we concentrate on three different movements, related to racism (#BlackLivesMatter and related), misogyny (#metoo and related) and Trump campaign (#maga and #antimaga).
+
 Because we have three very different topics, we centralised the backbone of our functions in the file Helpers.py and created a notebook for each of the three movements to show our results.
 # Research questions
 
@@ -84,6 +85,6 @@ It should be noted however that this API gave a 1000 tweets upper bound on the n
 
 # Contributions
 
-Ada Pozo Perez designed the methodology for analysing the movements and studied in the depth the #BlackLivesMatter movement. Isabela Constantin designed the workflow to use the Tweepy API and dealt with presenting the information interactively, and studied in depth the misogyny related hashtags. Keshav Singh crawled most of the data, came up with the word graphs and studied in depth the maga-antinmaga movement.
+Ada Pozo Perez conducted the exploratory analysis, designed the methodology for analysing the movements and studied in the depth the #BlackLivesMatter movement. Isabela Constantin designed the workflow to use the Tweepy API and dealt with presenting the information interactively, and studied in depth the misogyny related hashtags. Keshav Singh crawled most of the data, came up with the word graphs and studied in depth the maga-antinmaga movement.
 
 For the final presentation, we would like to ask if it is possible that we each talk about the movement we focused on.
