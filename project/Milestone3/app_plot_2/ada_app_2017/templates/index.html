@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>{{ title|e if title else "Bokeh Plot" }}</title>
+		{{ bokeh_css }}
+        	{{ bokeh_js }}
+		   <style>
+      			{% include 'assets/css/main.css' %}
+   		 
+		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<!-- Banner -->
+			<section id="two" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Time Series, Network based, Polarity, Subjectivity and Event analysis of Hashtags.</p>
+						<h2>Anatomy of hashtags</h2>
+					</header>
+				</div>
+			</section>
+
+
+			
+		<section id="three" class="wrapper style2">			
+			<div class="gallery">
+				<div style="margin-left:20px;padding-left:20px">
+				{{ plot_div|indent(8) }}
+        			{{ plot_script|indent(8) }}
+			</div>
+			</div>
+			</section>
+
+		<!-- Banner -->
+			<section id="two" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Thank you</p>
+						<h2>Created by Ada Pozo, Isabela Constantin and Keshav Singh</h2>
+					</header>
+				</div>
+			</section>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+	
+				</div>
+				<div class="copyright">
+					<p>&copy; Anatomy of Hashtags. All rights reserved </p>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			{{ bokeh_js }}
+
+	</body>
+</html>

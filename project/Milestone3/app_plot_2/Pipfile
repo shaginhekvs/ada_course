@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[packages]
+bokeh = "*"
+certifi = "*"
+Jinja2 = "*"
+MarkupSafe = "*"
+numpy = "*"
+python-dateutil = "*"
+PyYAML = "*"
+six = "*"
+tornado = "*"
+python-louvain="*"
+pandas="*"
+
+[requires]
+python_version = "3.6"

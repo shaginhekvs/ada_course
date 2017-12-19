@@ -1,0 +1,3 @@
+# Procfile
+web: bokeh serve --port $PORT --host=warm-taiga-10032.herokuapp.com --host=*   --address=0.0.0.0 --use-xheaders ./ada_app_2017
+
